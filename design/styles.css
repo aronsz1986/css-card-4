@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(221, 100%, 96%);
+}
+
+.main-container {
+  background-color: blue;
+  width: 40%;
+  margin: 10% auto;
+  border-radius: 2%;
+  /*padding: 20px;*/
+  height: 53vh;
+  display: flex;
+  flex-direction: row;
+}
