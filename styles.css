@@ -19,8 +19,13 @@ body {
 .left-side {
   width: 50%;
   height: 53vh;
-  background-color: hsl(241, 81%, 54%);
+  /* background-color: hsl(241, 81%, 54%);*/
   border-radius: 5%;
+  background-image: linear-gradient(
+    45deg,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
 }
 
 /*.score-explanation-text-container {
@@ -52,12 +57,16 @@ body {
 }
 
 .score-circle {
-  width: 155px;
-  height: 155px;
+  width: 175px;
+  height: 175px;
   border: 1px solid darkgray;
   border-radius: 50%;
   margin-bottom: 12px;
   margin-top: 20px;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
 }
 
 .score-explanation-text-container {
